@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Volatile Release</title>
+
+
+
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+
+<!-- IMAGE LOOP GALLERY -->
+  <div class="pics" >
+     <img src="img/back3.png"  width="1100" height"1100" id="pic1"/>
+     <img src="img/currentclimax.png" width="1100" height"1100" id="pic2"/>
+     <img src="img/libra.png" width="1100" height"1100" id="pic3"/>
+     <img src="img/inequilibrium.png" width="1100" height"1100" id="pic4"/>
+     <img src="img/gravity.png" width="1100" height"1100" id="pic5"/>
+     <img src="img/nostalgia.png" width="1100" height"1100" id="pic6"/>
+
+
+
+
+<!-- MAIN TITLE -->
+    <!-- <div id="title"  class="animated zoomInDown">
+       <h1>"V O L A T I L E" out in</h1>
+    </div> -->
+
+<!-- CLOCK AND ICONS WRAP -->
+<div class="wrapper">
+<!-- TIMER -->
+<div id="clockdiv" class="animated fadeInUp">
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+
+
+<!-- DISTRIBUTION PART -->
+   <div class="distribution animated zoomInUp" >
+      <h3>available in</h3>
+      <ul class="social">
+        <li>
+          <a class="ease-all" href="https://www.facebook.com/ortensiagr/" target="_blank" id="facebook"><i class="fa fa-facebook fa-2x"></i></a>
+        </li>
+        <li>
+          <a class="ease-all" href="https://www.instagram.com/ortensiaband/" target="_blank" id="instagram"><i class="fa fa-instagram fa-2x"></i></a>
+        </li>
+        <li>
+          <a class="ease-all" href="https://www.youtube.com/channel/UCgohTL80aYpWnMxZqUVS_hg" target="_blank" id="youtube"><i class="fa fa-youtube fa-2x"></i></a>
+        </li>
+        <!-- <li>
+          <a class="ease-all" href="#"><i class="fa fa-itunes fa-2x"></i></a>
+        </li> -->
+        <li>
+          <a class="ease-all" href="#" id="spotify"><i class="fa fa-spotify fa-2x"></i></a>
+        </li>
+         <!-- <li>
+           <a class="ease-all" href="#"><i class="fa fa-bandcamp fa-2x"></i></a>
+         </li> -->
+         <!-- <li>
+           <a class="ease-all" href="#"><i class="fa fa-google-play fa-2x"></i></a>
+         </li> -->
+         <li>
+           <a class="ease-all" href="#" id="amazon"><i class="fa fa-amazon fa-2x"></i></a>
+         </li>
+       </ul>
+   </div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- SCRIPT FUNCTIONS -->
+
+
+        <script src="js/index.js"></script>
+
+        <!-- IMAGE VIEW -->
+        <script>
+      var firstTime= setTimeout(function(){ imageLoop() },1000);
+      function imageLoop() {
+        $('#pic1').fadeIn(5000).delay(4000).fadeOut(3000);
+        $('#pic2').delay(10000).fadeIn(5000).fadeOut(3000);
+        $('#pic3').delay(15000).fadeIn(5000).fadeOut(3000);
+        $('#pic4').delay(20000).fadeIn(5000).fadeOut(3000);
+        $('#pic5').delay(25000).fadeIn(5000).fadeOut(3000);
+        $('#pic6').delay(30000).fadeIn(5000).fadeOut(3000);
+}
+
+var loop= setInterval(function(){ imageLoop() },37000);
+
+
+        </script>
+
+         </script>
+
+
+  </body>
+</html>
